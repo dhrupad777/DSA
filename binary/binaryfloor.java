@@ -1,10 +1,13 @@
-public class binarysearch {
-    public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5,6,77,88,99,55,99};
-        int target= 99;
+public class binaryfloor {
+      public static void main(String[] args) {
+        int[] nums = {1,2,3,4,5,6,77,88,99,555,999};
+        int target= 0000;
         System.out.println(bsearch(nums,target));
     }
     static int bsearch(int[] arr,int target){
+        if(target < arr[0]){
+            return -1;
+        }
         int start = 0;
         int end = arr.length-1;
 
@@ -16,9 +19,9 @@ public class binarysearch {
             else if(target > arr[mid]){
                 start = mid +1;
             }
-            else {return mid;} 
+            else {return mid;}
         }
 
-        return -1;
-    }
+        return arr[end];
+    }  
 }

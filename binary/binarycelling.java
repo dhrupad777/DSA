@@ -1,7 +1,7 @@
-public class binarysearch {
+public class binarycelling {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5,6,77,88,99,55,99};
-        int target= 99;
+        int[] nums = {1,2,3,4,5,6,77,88,99,555,999};
+        int target= 9;
         System.out.println(bsearch(nums,target));
     }
     static int bsearch(int[] arr,int target){
@@ -16,9 +16,9 @@ public class binarysearch {
             else if(target > arr[mid]){
                 start = mid +1;
             }
-            else {return mid;} 
+            else {return mid;}
         }
 
-        return -1;
+        return arr[start];
     }
 }

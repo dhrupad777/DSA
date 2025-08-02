@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrupad Rajpurohit - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact; /* Ensures colors are printed */
+        }
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .no-print {
+                display: none;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 antialiased">
+    <div class="max-w-4xl mx-auto my-8 bg-white shadow-lg rounded-lg p-8 md:p-12">
+        
+        <!-- Header Section -->
+        <header class="text-center border-b pb-6 mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Dhrupad Rajpurohit</h1>
+            <p class="text-lg text-gray-600 mt-2">Computer Science Engineering Student</p>
+            <div class="flex justify-center items-center flex-wrap gap-x-6 gap-y-2 mt-4 text-sm text-gray-500">
+                <a href="mailto:dhrupadrajpurohit@gmail.com" class="flex items-center hover:text-blue-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    dhrupadrajpurohit@gmail.com
+                </a>
+                <span class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    6352903282
+                </span>
+                <a href="https://linkedin.com/in/dhrupad-rajpurohit-b71b93214" target="_blank" class="flex items-center hover:text-blue-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    linkedin.com/in/dhrupad-rajpurohit-b71b93214
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Summary Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Summary</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    A proactive Computer Science student with a strong grasp of CS fundamentals, including data structures and algorithms. Adept at applying sound engineering principles to solve complex problems, from identifying user requirements to deploying creative, technology-driven solutions. A quick learner and collaborative team player skilled in time management and completing projects in a cooperative environment.
+                </p>
+            </section>
+
+            <!-- Education Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Education</h2>
+                <div>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-semibold text-gray-800">Amity University, Mumbai</h3>
+                        <p class="text-md text-gray-600 font-medium">2023 — 2027</p>
+                    </div>
+                    <p class="text-md text-gray-600">Bachelor of Technology</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-1">
+                        <li>Major: Computer Science and Engineering</li>
+                        <li>Minor: Animation</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Projects</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Kanteen - Canteen Order Management System</h3>
+                        <p class="text-gray-600 mt-1">Identified a key stakeholder problem (canteen overcrowding) and applied engineering principles to develop a full-stack web solution using <strong class="font-medium text-gray-700">Firebase, GCP, and Gemini</strong>. The system provides real-time status updates, directly addressing user requirements for efficiency.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Digital Support Platform for Indian Farmers</h3>
+                        <p class="text-gray-600 mt-1">Demonstrated rapid learning and teamwork in a time-constrained hackathon environment (<strong class="font-medium text-gray-700">Odoo X Nirman 2025</strong>). Prototyped a socially impactful platform by integrating multiple technologies including <strong class="font-medium text-gray-700">Firebase Auth, REST APIs, and Gemini API</strong>.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Knapsack Problem Solver using Genetic Algorithms</h3>
+                        <p class="text-gray-600 mt-1">Applied computer science fundamentals to tackle a complex optimization problem. Engineered a creative solution using <strong class="font-medium text-gray-700">Genetic Algorithms</strong> to showcase a deep understanding of algorithmic efficiency beyond brute-force methods.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Google Calendar Automation Tool</h3>
+                        <p class="text-gray-600 mt-1">Developed a backend automation tool with <strong class="font-medium text-gray-700">Node.js and GCP</strong> to improve process efficiency, demonstrating the ability to build and deploy practical, performance-improving software.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="grid md:grid-cols-2 md:gap-x-12">
+                <!-- Core Competencies -->
+                <section class="mb-8 md:mb-0">
+                    <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Core Competencies</h2>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><strong class="font-medium">CS Fundamentals:</strong> Data Structures & Algorithms</li>
+                        <li><strong class="font-medium">Problem Solving:</strong> Applying engineering principles</li>
+                        <li><strong class="font-medium">Teamwork:</strong> Collaborative project completion</li>
+                        <li><strong class="font-medium">Time Management:</strong> Hackathon & event experience</li>
+                        <li><strong class="font-medium">Agile Learning:</strong> Quickly incorporating new methods</li>
+                    </ul>
+                </section>
+                
+                <!-- Technical Skills -->
+                <section>
+                    <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Technical Skills</h2>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><strong>Cloud & Backend:</strong> Google Cloud Platform (GCP), Firebase (Studio, Auth), Node.js</li>
+                        <li><strong>APIs & AI:</strong> Gemini API, REST APIs, Maps API</li>
+                        <li><strong>Algorithms:</strong> Genetic Algorithms, Optimization Techniques</li>
+                        <li><strong>Concepts:</strong> Algorithmic Thinking, System Design, (Java/Python/C++)</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Leadership & Development Section -->
+            <section class="mt-8">
+                 <h2 class="text-2xl font-bold text-gray-700 border-b-2 border-blue-500 pb-2 mb-4">Leadership & Professional Development</h2>
+                 <ul class="list-disc list-inside text-gray-600 space-y-2">
+                    <li>Demonstrated project management and interpersonal skills by leading sponsorship acquisition, securing <strong class="font-medium">₹79,000+</strong> in combined cash and in-kind contributions for college events.</li>
+                    <li>Actively strengthening computer science fundamentals by consistently solving complex problems involving <strong class="font-medium">Data Structures and Algorithms</strong> on competitive programming platforms.</li>
+                 </ul>
+            </section>
+            
+        </main>
+    </div>
+    
+    <!-- Print Button (Hidden in Print View) -->
+    <div class="text-center my-8 no-print">
+        <button onclick="window.print()" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-md">
+            Save as PDF / Print
+        </button>
+    </div>
+
+</body>
+</html>
